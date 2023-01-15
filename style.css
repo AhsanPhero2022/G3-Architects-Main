@@ -342,8 +342,9 @@ footer{
 
 @media only screen and (max-width: 576px) {
   nav {
-    padding: 20px 100px;
-  }
+    flex-direction: column;
+    padding: 20px 100px 20px 10px;
+    }
   ul,
   main,
   .image-container1,
@@ -354,6 +355,9 @@ footer{
   .sponsors-logo {
     flex-direction: column;
     gap: 25px;
+  }
+  ul{
+    margin-top: 30px;
   }
   .group-header {
     padding: 5px;
