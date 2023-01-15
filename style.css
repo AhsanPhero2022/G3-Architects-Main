@@ -1,11 +1,20 @@
+/*================
+ body style start
+ ================= */
 * {
   font-family: "Work Sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+/*================
+ body style end
+ ================= */
 
-/* Nav style start */
+
+/* =============
+Nav style start 
+  ==============*/
 nav {
 
   background-color: #ff900e1a;
@@ -26,9 +35,13 @@ ul li {
   margin-left: 30px;
   color: #424242;
 }
-/* nav style end */
+/* ==============
+  Nav style end 
+  ===============*/
 
-/* Header styles start here */
+/*========================
+ Header styles start here 
+ ========================*/
 header {
   background-color: #ff900e1a;
 }
@@ -63,9 +76,14 @@ header {
   width: 100%;
   padding: 50px 150px;
 }
-/* header styles end here */
+/*======================
+ header styles end here 
+ =======================*/
 
-/* main style start */
+
+/*===================
+ main style start
+ ==================== */
 main {
   display: flex;
   align-items: center;
@@ -88,6 +106,7 @@ main {
 .image-container2 img {
   width: 50%;
 }
+
 .quick-list-title :nth-child(1) {
   color: #727272;
   font-weight: 700;
@@ -107,12 +126,19 @@ quick-list-description {
   font-weight: 400;
   font-size: 16px;
   color: #727272;
+} 
+.quick-list-container{
+  margin-right: 10%;
 }
+/*====================
+ Main styles end here 
+ ====================*/
 
-  
-/* Main styles end here */
 
-/* Experience styls start here */
+
+/*===========================
+ Experience styls start here
+ ============================ */
 .experience-section {
   display: flex;
   align-items: center;
@@ -126,18 +152,15 @@ quick-list-description {
 .experience-img-container {
   position: relative;
 }
-.vertical {
-  border-left: 3px solid #ff900e ;
-  height: 100px;
-  position:absolute;
-  left: 9.4%;
-  margin-top: 35%;
-}
+
 .experience-title {
   color: #131313;
   font-weight: 700;
   font-size: 45px;
-  margin-left: 10px;
+  margin-left: 5px;
+  border-left: 3px solid plum;
+  padding: 5px;
+  
 }
 .experience-description {
   font-weight: 400;
@@ -168,9 +191,15 @@ quick-list-description {
   font-weight: 400;
   font-size: 12px;
 }
-/* Experience styles ends here */
+/*===========================
+ Experience styles ends here
+ ============================ */
 
-/* Some facts style start */
+
+
+/*=========================
+ Some facts style start
+ ========================== */
 .some-text-container {
   margin-left: 200px;
 }
@@ -204,9 +233,15 @@ quick-list-description {
   background: plum;
   transition-duration: 2s;
 }
-/* Some Facts style end */
+/*====================
+ Some Facts style end
+ ===================== */
 
-/* Sponsors style start */
+
+
+/*====================
+ Sponsors style start
+ ===================== */
 .sponsors-section{
   margin-top: 50px;
 }
@@ -235,10 +270,15 @@ color: #727272;
   width: 50%;
  filter: grayscale(100%);
 }
-/* sponsors styls end */
+/*===================
+ sponsors styls end
+ =================== */
 
-/* Extra section styls start */
 
+
+/*==========================
+ Extra section styls start
+ =========================== */
 .extra-section{
   display: flex;
   justify-content: center;
@@ -246,10 +286,11 @@ color: #727272;
   margin-top: 50px;
   gap: 3rem;
   margin-bottom: 50px;
+  padding: 50px;
 }
 .extra-text-title{
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   color: #131313;
   margin: 10px;
 }
@@ -260,9 +301,15 @@ color: #727272;
   margin: 20px;
   padding: 5px;
 }
-/* extra styles end */
+/*================
+ extra styles end
+ ================ */
 
-/* footer styles start */
+
+
+/*=====================
+ footer styles start
+ ====================== */
 footer{
   margin: 0 auto;
    width: 1000px;
@@ -280,28 +327,17 @@ footer{
  footer p{
    text-align: center;
  }
+/*===================
+  footer styles end
+ ==================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*==============================
+ Mobile device responsive here
+ =============================== */
 
 @media only screen and (max-width: 576px) {
   nav {
     padding: 20px 100px;
-    
-    
   }
   ul,
   main,
@@ -329,10 +365,6 @@ footer{
     position: static;
     margin-left: 33%;
   }
-  .some-text-container{
-    
-    padding: 10px 100px;
-  }
   .some-logo-container {
     align-items: center;
   }
@@ -346,10 +378,6 @@ footer{
   }
   .extra-section{
     flex-direction: column-reverse;
-  }
-  .vertical{
-    margin-top: 80%;
-    margin-left: 9.4%;
   }
   footer{
     margin: 0;
