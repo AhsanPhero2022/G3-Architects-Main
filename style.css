@@ -106,7 +106,10 @@ main {
 .image-container2 img {
   width: 50%;
 }
-
+.quick-list-title{
+  margin-bottom: 15px;
+  
+}
 .quick-list-title :nth-child(1) {
   color: #727272;
   font-weight: 700;
@@ -126,6 +129,8 @@ quick-list-description {
   font-weight: 400;
   font-size: 16px;
   color: #727272;
+  
+
 } 
 .quick-list-container{
   margin-right: 10%;
@@ -165,12 +170,12 @@ quick-list-description {
 .experience-description {
   font-weight: 400;
   font-size: 16px;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 .article-box {
-  margin: 8px;
+  margin: 15px;
   padding: 25px;
-  box-shadow: 2px 3px 8px plum;
+  box-shadow: 2px 2px 8px plum;
   border-radius: 5px;
 }
 .article-title {
@@ -345,7 +350,8 @@ footer{
   .image-container2,
   .experience-section,
   .some-logo-container,
-  .extra-section {
+  .extra-section,
+  .sponsors-logo {
     flex-direction: column;
     gap: 25px;
   }
@@ -371,6 +377,10 @@ footer{
   .some-text-container {
     margin: 0;
     padding: 20px;
+  }
+  .sponsors-logo{
+    width: 50%;
+    margin:10% 40%;
   }
   .extra-img-container img{
     width: 75%;
